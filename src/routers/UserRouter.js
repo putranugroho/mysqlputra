@@ -173,7 +173,7 @@ router.get('/users/profile/:username', (req, res) => {
             username: user.username,
             name : user.name,
             email: user.email,
-            avatar: `localhost:${port}/users/avatar/${user.avatar}`
+            avatar: `https://mysqlputra.herokuapp.com/users/avatar/${user.avatar}`
         })
     })
 })

@@ -17,5 +17,4 @@ app.get('/', (req,res) =>{
 
 app.listen(port, () => {
     console.log('Berhasil Running di ' + port);
-    
 })
