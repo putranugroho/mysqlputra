@@ -1,7 +1,7 @@
 const express = require('express')
 
-const userRouter = require('./routers/userRouter')
-const taskRouter = require('./routers/taskRouter')
+const userRouter = require('./routers/UserRouter')
+const taskRouter = require('./routers/TaskRouter')
 const configPort = require('./config/port')
 
 const app = express()
